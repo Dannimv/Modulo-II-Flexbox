@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+}
+
+aside {
+  background-color: #fff;
+  border: 1px solid #ddd9d8;
+  width: 300px;
+  font-family: roboto;
+  font-weight: lighter;
+}
+
+.maria {
+  display: flex;
+  height: 70px;
+  justify-content: space-evenly;
+  border: 1px solid #ddd9d8;
+}
+
+.iconomaria {
+  border-radius: 50%;
+  width: 70px;
+  padding: 5px;
+}
+
+.actividad {
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+.fontawesome {
+  padding: 20px;
+  font-size: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.boton,
+button {
+  padding: 1rem;
+  justify-content: center;
+  width: 100%;
+  font-size: 20px;
+  border: 1px solid #ddd9d8;
+  color: #fff;
+}
+
+.boton {
+  padding: 15%;
+}
+.userjuanita {
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  border: 1px solid #ddd9d8;
+  font-weight: lighter;
+  gap: 20px;
+}
+
+.menu {
+  height: 100vh;
+}
+
+.content {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  color: rgb(46, 42, 42);
+  font-family: opens + sans + regular;
+}
+
+.logo {
+  justify-content: center;
+  align-items: center;
+}
+
+.texto {
+  text-align: center;
+  width: 55%;
+  display: flex;
+  font-size: 20px;
+}
+
+.titulo {
+  color: rgb(57, 54, 54);
+  font-size: 45px;
+}
